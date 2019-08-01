@@ -13,32 +13,32 @@
 
 
 ----
-##### We define areaRect as a function that takes in two arguements (Integers) and then multiplies the arguements together.
-```   
+We define areaRect as a function that takes in two arguements (Integers) and then multiplies the arguements together.
+```Haskell   
 areaRect :: Int -> Int -> Int
 areaRect l w = l * w
 ```
 
 
 ----
-##### In this function, areaSquare, we take in one arguement and then call on the areaRect function. In the case of a square, either L or W works.
-```
+In this function, areaSquare, we take in one arguement and then call on the areaRect function. In the case of a square, either L or W works.
+```Haskell
 areaSquare :: Int -> Int
 areaSquare x = areaRect x x
 ```
 
 
 ----
-##### In this function, areaTriangle, we're taking in two arguements, and then calling on the areaRect function to multiply the arguements and then divide it by two to create the area formula for a triangle.
-```
+In this function, areaTriangle, we're taking in two arguements, and then calling on the areaRect function to multiply the arguements and then divide it by two to create the area formula for a triangle.
+```Haskell
 areaTriangle :: Int -> Int -> Float
 areaTriangle b h = (/ 2) areaRect b h
 ```
 
 
 ----
-##### In this function, double, we're taking in one arguement and multiplying it by 2. In the function quad we're simply combining two double functions to work on x.
-```
+In this function, double, we're taking in one arguement and multiplying it by 2. In the function quad we're simply combining two double functions to work on x.
+```Haskell
 double :: Int -> Int
 double x = x * 2
 quad x = (double . double) x
