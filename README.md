@@ -11,6 +11,6 @@ Contributions are welcome through forking the repository and creating a pull req
 
 ### DISCLAIMER
 
-Some of this information and code is used from the resources of <https://en.wikibooks.org/wiki/Haskell> with a [CC BY-SA LICENSE](https://creativecommons.org/licenses/by-sa/3.0/).
+Some of this information and code is used from the resources of the [Haskell Wikibook](https://en.wikibooks.org/wiki/Haskell) with a [CC BY-SA LICENSE](https://creativecommons.org/licenses/by-sa/3.0/). All or any shared and adaptations of any of the materials here require the mentioned license and the [LICENSE file](https://github.com/Jessie-Park/Haskell-Notes/blob/master/LICENSE.md) pertaining to this repository. All legal issues should be resolved and noted by the linked licenses.
 
 **None** of the material in this repository is in any afiliated with or endorsed by the Wikibooks community nor the creator/contributors of the Haskell Wikibook.
