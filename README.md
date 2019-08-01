@@ -1,7 +1,7 @@
 Haskell-Notes (WIP)
 =============
 
-This repository is for notes on for haskell. It is mostly based on the [Haskell Wikibook](https://en.wikibooks.org/wiki/Haskell).
+This repository is for notes on for haskell. It is mostly based on the [Haskell Wikibook](https://en.wikibooks.org/wiki/Haskell). The goal is to take the information and make it more digestible as well as create exercises that are capalbe of being tinkered with to see how they work.
 
 
 ### Contributors
