@@ -1,15 +1,15 @@
 # Variables & Functions
 
 ----
-### Functional programming offers a way to think in higher-level mathematical terms. By defining how variables relate to one another and leaving the compiler to translate these to the step-by-step instructions that the computer can process.
+#### Functional programming offers a way to think in higher-level mathematical terms. By defining how variables relate to one another and leaving the compiler to translate these to the step-by-step instructions that the computer can process.
 
 
 
-### A variable in Haskell gets defined only once and cannot change. The variables in Haskell seem almost invariable, but they work like variables in mathematics. In a math classroom, you never see a variable change its value within a single problem. In precise terms, Haskell variables are immutable. They vary only based on the data we enter into a program.
+#### A variable in Haskell gets defined only once and cannot change. The variables in Haskell seem almost invariable, but they work like variables in mathematics. In a math classroom, you never see a variable change its value within a single problem. In precise terms, Haskell variables are immutable. They vary only based on the data we enter into a program.
 
 
 
-### A function takes an argument value (or parameter) and gives a result value. Defining functions in Haskell is like defining a variable, except that we take note of the function argument that we put on the left hand side. Functions can also take more than one arguement.
+#### A function takes an argument value (or parameter) and gives a result value. Defining functions in Haskell is like defining a variable, except that we take note of the function argument that we put on the left hand side. Functions can also take more than one arguement.
 
 
 ----
