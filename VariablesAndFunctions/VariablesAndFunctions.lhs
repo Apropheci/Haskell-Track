@@ -28,4 +28,4 @@ Writing quad and passing an integer as an arguement will call double twice, mult
 > quad x = (double . double) x
 
 
-main = putStrLn "Success"
+> main = putStrLn "Success"
