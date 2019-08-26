@@ -18,14 +18,14 @@ But if the equation is not true it will return false (exerciseTwo in lhs)
 
 We can also use functions to test this on as well. We define a function f that takes in an integer and adds three to it. So if we pass 2 into the function and ask if it will be equal to 5, it will return true.
 ```Haskell
-f :: Int -> Bool
-let f x = x + 3
+f :: Int -> Int
+f x = x + 3
 f 2 == 5
 ```
 
 We can also compare two numerical values. Haskell provides a number of tests including: `<` (less than), `>` (greater than), `<=` (less than or equal to) and `>=` (greater than or equal to). These tests work comparably to `==` (equal to). For example, we could use `<` alongside the area function from the previous module to see whether a circle of a certain radius would have an area smaller than some value.
 ```Haskell
-let area r = pi * r ^ 2
+area r = pi * r ^ 2
 area 5 < 50
 False
 ```
