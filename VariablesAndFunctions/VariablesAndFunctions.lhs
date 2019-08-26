@@ -26,5 +26,3 @@ Writing quad and passing an integer as an arguement will call double twice, mult
 > double :: Int -> Int
 > double x = x * 2
 > quad x = (double . double) x
-
-main = putStrLn "Success"
