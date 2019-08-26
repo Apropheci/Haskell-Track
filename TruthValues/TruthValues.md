@@ -7,12 +7,12 @@ Comparing values to see if they are equal is also useful in programming. In Hask
 
 
 
-This will return true, as five is equal to five
+This will return true, as five is equal to five (exerciseOne in lhs)
 `2 + 3 == 5`
 
 
 
-But if the equation is not true it will return false
+But if the equation is not true it will return false (exerciseTwo in lhs)
 `2 + 7 == 5`
 
 
