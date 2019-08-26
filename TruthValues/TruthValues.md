@@ -1,6 +1,6 @@
 # Truth Values
 ----
-##### Equality and other comparisons
+#### Equality and other comparisons
 ----
 
 Comparing values to see if they are equal is also useful in programming. In Haskell, such tests look just like an equation. Since the equals sign is already used for defining things, Haskell uses a double equals sign, `==` instead.
