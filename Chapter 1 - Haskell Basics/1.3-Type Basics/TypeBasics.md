@@ -3,7 +3,7 @@
 #### Using the interactive :type command
 ----
 
-Let's explore how types work using GHCi. The type of any expression can be checked with :type (or shortened to :t) command. We can try this on many different things, such as boolean values, characters and strings.
+- Let's explore how types work using GHCi. The type of any expression can be checked with :type (or shortened to :t) command. We can try this on many different things, such as boolean values, characters and strings.
 
 ```
 Prelude> :type True
@@ -13,11 +13,11 @@ Prelude> :type False
 False :: Bool
 ```
 
-The symbol ::, which will appear in a couple other places, can be read as simply "is of type", and indicates a type signature.
+- The symbol ::, which will appear in a couple other places, can be read as simply "is of type", and indicates a type signature.
 
 :type reveals that truth values in Haskell are of type Bool, as illustrated above for the two possible values, True and False, as well as for a sample expression that will evaluate to one of them. Note that boolean values are not just for value comparisons. Bool captures the semantics of a yes/no answer, so it can represent any information of such kind – say, whether a name was found in a spreadsheet, or whether a user has toggled an on/off option.
 
-Now let's try :t on something new. Literal characters are entered by enclosing them with single quotation marks. For instance, this is the single letter H:
+- Now let's try :t on something new. Literal characters are entered by enclosing them with single quotation marks. For instance, this is the single letter H:
 
 ```
 Prelude> :t 'H'
