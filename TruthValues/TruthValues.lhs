@@ -25,4 +25,23 @@ and then adds three to the integer. You can call the function and see if it is e
 > f :: Int -> Int
 > f x = x + 3
 
+
+
+We can also compare two numerical values to see which one is larger. Haskell provides a number 
+of tests including: < (less than), > (greater than), <= (less than or equal to) and >= 
+(greater than or equal to). These tests work comparably to == (equal to).
+
+
+> lessThan :: Int -> Int
+> lessThan x = x < 5
+
+> greaterThan :: Int -> Int
+> greaterThan x = x > 5
+
+> lessThanOr :: Int -> Int
+> lessThanOr x = x <= 5
+
+> greaterThanOr :: Int -> Int
+> greaterThanOr x = x >= 5
+
 > main = putStrLn "Success"
