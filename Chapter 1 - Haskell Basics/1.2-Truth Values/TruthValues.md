@@ -42,7 +42,7 @@ Expanding on what we covered in the beginning we'll go over Boolean values now. 
 > 2 + 2
 > 4
 ```
-----
+
 If we replace the arithmetical expression with an equality comparison, something similar seems to happen:
 ```Haskell
 2 == 2
