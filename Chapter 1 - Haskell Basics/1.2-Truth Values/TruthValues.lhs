@@ -18,6 +18,8 @@ Equality and other comparisons
 > greaterThanOr :: Int -> Bool
 > greaterThanOr x = x >= 5
 
+> r = 0
+> area r = pi * r ^ 2
 
 
 Guards
