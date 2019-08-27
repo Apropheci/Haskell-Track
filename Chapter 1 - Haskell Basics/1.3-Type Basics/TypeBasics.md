@@ -5,7 +5,7 @@
 
 Let's explore how types work using GHCi. The type of any expression can be checked with :type (or shortened to :t) command. We can try this on many different things, such as boolean values, characters and strings.
 
-```
+```Haskell
 Prelude> :type True
 True :: Bool
 
@@ -20,14 +20,14 @@ The symbol ::, which will appear in a couple other places, can be read as simply
 ----
 Now let's try :t on something new. Literal characters are entered by enclosing them with single quotation marks. For instance, this is the single letter `H`:
 
-```
+```Haskell
 Prelude> :t 'H'
 'H' :: Char
 ```
 
 So, literal character values have type Char (short for "character"). Now, single quotation marks only work for individual characters, so if we need to enter longer text – that is, a string of characters – we use double quotation marks instead:
 
-```
+```Haskell
 Prelude> :t "Hello World"
 "Hello World" :: [Char]
 ```
