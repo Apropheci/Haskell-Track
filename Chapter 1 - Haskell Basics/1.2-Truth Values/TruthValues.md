@@ -1,6 +1,6 @@
 # Truth Values
 ----
-#### Equality and other comparisons
+### Equality and other comparisons
 ----
 
 Comparing values to see if they are equal is also useful in programming. In Haskell, such tests look just like an equation. Since the equals sign is already used for defining things, Haskell uses a double equals sign, `==` instead.
@@ -35,7 +35,7 @@ False
 
 
 ----
-#### Boolean values
+### Boolean values
 ----
 Expanding on what we covered in the beginning we'll go over Boolean values now. What is actually going on when GHCi determines whether these arithmetical propositions are true or false? Consider a different but related issue. If we enter an arithmetical expression in GHCi the expression gets evaluated, and the resulting numerical value is displayed on the screen:
 ```Haskell
@@ -54,7 +54,7 @@ Whereas the "4" returned earlier is a number which represents some kind of count
 
 
 ----
-#### Boolean operations
+### Boolean operations
 ----
 Haskell provides three basic functions for further manipulation of truth values as in logic propositions.
 `&&` is the logical and, while `||` is the logical or
@@ -78,7 +78,7 @@ false
 
 
 ----
-#### Guards
+### Guards
 ---
 Haskell programs often use boolean operators in convenient and abbreviated syntax. When the same logic is written in alternative styles, we call this syntactic sugar because it sweetens the code from the human perspective. We'll start with guards, a feature that relies on boolean values and allows us to write simple but powerful functions.
 
