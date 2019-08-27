@@ -44,4 +44,13 @@ of tests including: < (less than), > (greater than), <= (less than or equal to) 
 > greaterThanOr :: Int -> Bool
 > greaterThanOr x = x >= 5
 
+
+
+This exercise uses the example provided in the markdown file for Guards.
+
+> abs :: Int -> Int
+> abs x
+>   | x < 0 = -x
+>   | otherwise x = x
+
 > main = putStrLn "Success"
