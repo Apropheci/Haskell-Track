@@ -13,7 +13,7 @@ Prelude> :type False
 False :: Bool
 ```
 
-- The symbol ::, which will appear in a couple other places, can be read as simply "is of type", and indicates a type signature.
+The symbol ::, which will appear in a couple other places, can be read as simply "is of type", and indicates a type signature.
 
 :type reveals that truth values in Haskell are of type Bool, as illustrated above for the two possible values, True and False, as well as for a sample expression that will evaluate to one of them. Note that boolean values are not just for value comparisons. Bool captures the semantics of a yes/no answer, so it can represent any information of such kind – say, whether a name was found in a spreadsheet, or whether a user has toggled an on/off option.
 
