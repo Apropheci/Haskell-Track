@@ -1,6 +1,6 @@
 # Type Basics
 ----
-#### Using the interactive :type command
+### Using the interactive :type command
 ----
 
 Let's explore how types work using GHCi. The type of any expression can be checked with :type (or shortened to :t) command. We can try this on many different things, such as boolean values, characters and strings.
@@ -33,3 +33,7 @@ Prelude> :t "Hello World"
 ```
 
 Why did we get Char again? The difference is the square brackets. `[Char]` means a number of characters chained together, forming a list of characters. Haskell considers all Strings to be lists of characters. Lists in general are important entities in Haskell, and we will cover them in more detail in a little while.
+
+----
+### Functional types
+----
