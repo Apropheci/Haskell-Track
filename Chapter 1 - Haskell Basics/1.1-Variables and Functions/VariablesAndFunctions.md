@@ -83,7 +83,7 @@ heron a b c = sqrt (s * (s - a) * (s - b) * (s - c))
 s = (a + b + c) / 2  -- a, b, and c are not defined here
 ```
 
-Because the variables a, b, c are only available in the right-hand side of the function heron, but the definition of s as written here is not part of the right-hand side of heron. To make it part of the right-hand side, we use the `where` keyword:
+Because the variables `a`, `b`, `c` are only available in the right-hand side of the function `areaTriangleHeron`, but the definition of `s` as written here is not part of the right-hand side of `areaTriangleHeron`. To make it part of the right-hand side, we use the `where` keyword:
 
 ```Haskell
 areaTriangleHeron a b c = result           -- use Heron's formula
@@ -92,8 +92,36 @@ areaTriangleHeron a b c = result           -- use Heron's formula
     s      = (a + b + c) / 2
 ```
 
-Note that both the where and the local definitions are indented by 4 spaces, to distinguish them from subsequent definitions.
+Note that both the `where` and the local definitions are indented by 4 spaces, to distinguish them from subsequent definitions.
 
 ----
 ### Scope
 ----
+
+If you look closely at the example below, you'll notice that we have used the variable names `a`, `b`, `c` twice, once for each of the two area functions. How does that work?
+
+```Haskell
+areaTriangleTrig  a b c = c * height / 2   -- use trigonometry
+    where
+    cosa   = (b ^ 2 + c ^ 2 - a ^ 2) / (2 * b * c)
+    sina   = sqrt (1 - cosa ^ 2)
+    height = b * sina
+    
+    
+areaTriangleHeron a b c = result           -- use Heron's formula
+    where
+    result = sqrt (s * (s - a) * (s - b) * (s - c))
+    s      = (a + b + c) / 2
+```
+
+Consider the following GHCi sequence:
+
+```Haskell
+Prelude> let r = 0
+Prelude> let area r = pi * r ^ 2
+Prelude> area 5
+78.53981633974483
+```
+It would have been an unpleasant surprise to return `0` for the area because of the earlier `let r = 0` definition getting in the way. That does not happen because when you defined `r` the second time you are talking about a different `r`. This may seem confusing, but consider how many people have the name John, and yet for any context with only one John, we can talk about "John" with no confusion. Programming has a notion similar to context, called scope.
+
+We will not explain the technicalities behind scope right now. Just keep in mind that the value of a parameter is strictly what you pass in when you call the function, regardless of what the variable was called in the function's definition. That said, appropriately unique names for variables do make the code easier for human readers to understand.
