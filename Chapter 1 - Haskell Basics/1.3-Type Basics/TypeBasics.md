@@ -59,7 +59,7 @@ Bool                   Bool
 
 `Bool -> Bool`
 
-3. Add in the result type and a final ->. In our case, we're just doing some basic boolean operations so the result remains a Bool.
+3. Add in the result type and a final `->`. In our case, we're just doing some basic boolean operations so the result remains a `Bool`.
 
 ```Haskell
 Bool -> Bool -> Bool
