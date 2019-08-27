@@ -32,16 +32,16 @@ of tests including: < (less than), > (greater than), <= (less than or equal to) 
 (greater than or equal to). These tests work comparably to == (equal to).
 
 
-> lessThan :: Int -> Int
+> lessThan :: Int -> Bool
 > lessThan x = x < 5
 
-> greaterThan :: Int -> Int
+> greaterThan :: Int -> Bool
 > greaterThan x = x > 5
 
-> lessThanOr :: Int -> Int
+> lessThanOr :: Int -> Bool
 > lessThanOr x = x <= 5
 
-> greaterThanOr :: Int -> Int
+> greaterThanOr :: Int -> Bool
 > greaterThanOr x = x >= 5
 
 > main = putStrLn "Success"
