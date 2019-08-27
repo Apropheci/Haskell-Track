@@ -52,9 +52,6 @@ True
 Whereas the "4" returned earlier is a number which represents some kind of count, quantity, etc., "True" is a value that stands for the truth of a proposition. Such values are called truth values, or boolean values. Naturally, only two possible boolean values exist: `True` and `False`.
 
 
-We can also compare two numerical values to see which one is larger. Haskell provides a number of tests including: `<` (less than), `>` (greater than), `<=` (less than or equal to) and `>=` (greater than or equal to). These tests work comparably to `==` (equal to). For example, we could use < alongside the area function from the previous module to see whether a circle of a certain radius would have an area smaller than some value.
-
-
 
 ----
 #### Boolean operations
