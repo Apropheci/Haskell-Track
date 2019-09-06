@@ -24,7 +24,7 @@ f 2 == 5
 ----
 We can also compare two numerical values. Haskell provides a number of tests including: `<` (less than), `>` (greater than), `<=` (less than or equal to) and `>=` (greater than or equal to). These tests work comparably to `==` (equal to). For example, we could use `<` alongside the area function from the previous module to see whether a circle of a certain radius would have an area smaller than some value.
 
-In this example below we can create a function `area r = pi * r ^ 2` and then using the less than (`<`) operator we can check to see if it's less than 50.
+In this example below we can create a function `area r = pi * r ^ 2` and then using the less than (`<`) operator, we can check to see if it's less than 50.
 ```Haskell
 area r = pi * r ^ 2
 area 5 < 50
