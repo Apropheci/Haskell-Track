@@ -64,7 +64,7 @@ False || True == True
 False || False == False
 ```
 ----
-`not` performs the negation of a boolean value; that is, it converts True to False and vice-versa.
+`not` performs the negation of a boolean value. It converts True to False and vice-versa.
 ```Haskell
 not ( 5 * 2 == 10)
 false
@@ -74,7 +74,7 @@ false
 
 Haskell programs often use boolean operators in convenient and abbreviated syntax. When the same logic is written in alternative styles, we call this syntactic sugar because it sweetens the code from the human perspective. We'll start with guards, a feature that relies on boolean values and allows us to write simple but powerful functions.
 
-Let's implement the absolute value function. The absolute value of a real number is the number with its sign discarded; so if the number is negative (that is, smaller than zero) the sign is inverted; otherwise it remains unchanged. Here, the actual expression to be used for calculating `|x|` depends on a set of propositions made about `x`. If `x >=` is true, then we use the first expression, but if `x < 0` is the case, then we use the second expression instead. To express this decision process in Haskell using guards, the implementation could look like this:
+Let's implement the absolute value function. The absolute value of a real number is the number with its sign discarded; so if the number is negative (that is, smaller than zero) the sign is inverted; otherwise it remains unchanged. Here, the actual expression to be used for calculating `|x|` depends on a set of propositions made about `x`. If `x >=` is true then we use the first expression. But if `x < 0` is the case then we use the second expression instead. To express this decision process in Haskell using guards, the implementation could look like this:
 ```Haskell
 abs :: Int -> Int
 abs x
