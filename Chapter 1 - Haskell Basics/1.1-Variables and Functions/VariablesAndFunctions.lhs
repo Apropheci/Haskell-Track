@@ -15,12 +15,6 @@ Functions
 > quad x = (double . double) x
 
 
-Combining Functions
-
-> areaRect l w = l * w
-> areaSquare s = areaRect s s
-
-
 Where Clauses
 
 > areaTriangleHeron a b c = result
