@@ -11,6 +11,7 @@ Functions
 
 > double :: Int -> Int
 > double x = x * 2
+> quad :: Int -> Int
 > quad x = (double . double) x
 
 
