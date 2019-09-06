@@ -24,7 +24,7 @@ Prelude> :t 'H'
 'H' :: Char
 ```
 
-So, literal character values have type `Char` (short for "character"). Now, single quotation marks only work for individual characters, so if we need to enter longer text – that is, a string of characters – we use double quotation marks instead:
+So literal character values have type `Char` (short for "character"). Now, single quotation marks only work for individual characters, so if we need to enter longer text – that is, a string of characters – we use double quotation marks instead:
 
 ```Haskell
 Prelude> :t "Hello World"
