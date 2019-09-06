@@ -63,6 +63,7 @@ In the function, `double`, we're taking in one arguement and multiplying it by `
 ```Haskell
 double :: Int -> Int
 double x = x * 2
+quad :: Int -> Int
 quad x = (double . double) x
 ```
 
